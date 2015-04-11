@@ -7,7 +7,7 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 #devise
-config.assets.initialize_on_precompile = false
+#config.assets.initialize_on_precompile = false
 
 module RailsForum
   class Application < Rails::Application
